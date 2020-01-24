@@ -1,0 +1,13 @@
+body{
+	background-color: rgb(198,219,247);
+}
+
+#main{
+	display: flex;
+}
+
+div > div{
+	padding: 1em; 
+	border: 1px dashed blue; 
+	//margin: 
+}
