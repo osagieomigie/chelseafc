@@ -13,19 +13,30 @@ body{
 }*/
 
 .control{
+	display: block;
 	padding: 5px;
 	margin: 0px;
 	width: 65px;
-	color: rgb(3,24,89); 
+}
+
+a {
+  display: block;
+  color: rgb(3,24,89); 
+  text-decoration: none;
+}
+
+.current{
+	text-decoration: underline overline;
+	text-decoration-style: double;
 }
 
 #header{
-	//border-top: 1px solid rgb(3,24,89); 
 	border-bottom: 1.5px solid rgb(3,24,89); 
 	display: grid;
-	grid-template-columns: 450px 80px 82px 140px 80px;
+	grid-template-columns: 450px 75px 82px 140px 80px;
 	grid-gap: 1rem;
 	color: rgb(3,34,89);
+	text-decoration: none;
 	padding-left: 1%;
 	padding-right: 30%;
 }
@@ -75,6 +86,7 @@ h1{
 .main-players{
 	border: 2.5px solid rgb(3,24,89); 
 	border-style: ridge;
+	border-collapse: collapse;
 	width: 100%;
 	padding-right: 9px;	
 	font-family: 'Caveat', cursive;
