@@ -17,6 +17,7 @@ body{
 	padding: 5px;
 	margin: 0px;
 	width: 65px;
+	//font-family: 'Rajdhani', sans-serif;
 }
 
 a {
@@ -30,15 +31,26 @@ a {
 	text-decoration-style: double;
 }
 
-#header{
+.header{
 	border-bottom: 1.5px solid rgb(3,24,89); 
 	display: grid;
 	grid-template-columns: 450px 75px 82px 140px 80px;
 	grid-gap: 1rem;
 	color: rgb(3,34,89);
+	background-color: #E7F2F8;
 	text-decoration: none;
 	padding-left: 1%;
 	padding-right: 30%;
+	margin-bottom: 0;
+}
+
+.footer{
+	border-bottom: 1.5px solid rgb(3,24,89); 
+	border-top: 1px solid rgb(3,24,89); 
+	color: rgb(3,34,89);
+	background-color: #E7F2F8;
+	padding: 10px;
+	text-align: center; 
 }
 
 .major-Awards{
@@ -46,24 +58,23 @@ a {
 	padding-right: 70px;
 }
 
-h1{
+/*h1{
 	margin: 10px;
-}
+}*/
 
 #Welcome-text{
-	font-family: 'Caveat', cursive;
+	font-family: 'Rajdhani', sans-serif;
 	text-align: center;
 	color: rgb(3,24,89); 
 	border-bottom: 1px solid rgb(3,24,89); 
+	margin: 0;
 }
 
 #main{
 	display: flex;
 	flex: 25%;
-	width: 1200px;
-	height: 500px;
-	margin-left: auto;
-  	margin-right: auto;
+  	margin-left: 5%;
+  	margin-right: 5%;
 }
 
 #picture-grid{
@@ -71,8 +82,9 @@ h1{
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: .5fr .5fr; 
 	grid-gap: .5em;
-  	width: 90%;
-  	padding-left: 30px;
+  	width: 45%;
+  	height: 0%;
+  	padding-left: 18px;
   	padding-right: 55px;
   	margin: 0;
 }
@@ -87,9 +99,10 @@ h1{
 	border: 2.5px solid rgb(3,24,89); 
 	border-style: ridge;
 	border-collapse: collapse;
-	width: 100%;
-	padding-right: 9px;	
-	font-family: 'Caveat', cursive;
+	width: 92%;
+	padding-right: 18px;	
+	font-family: 'Rajdhani', sans-serif;
+	background-color: #74BDCB;
 }
 
 .img1{ 
