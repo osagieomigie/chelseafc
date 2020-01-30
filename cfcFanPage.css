@@ -23,6 +23,7 @@ a {
 .current{
 	text-decoration: underline overline;
 	text-decoration-style: double;
+	text-decoration-color: #F83839;
 }
 
 .header{
@@ -89,7 +90,9 @@ a {
 
 .main-players{
 	border: 2.5px solid rgb(3,24,89); 
-	border-style: ridge;
+	border-width: 6px;
+	//border-style: ridge;
+	border-style: solid double solid double;
 	border-collapse: collapse;
 	width: 92%;
 	padding-right: 18px;	
