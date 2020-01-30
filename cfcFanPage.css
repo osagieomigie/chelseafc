@@ -94,6 +94,7 @@ a {
 	width: 92%;
 	padding-right: 18px;	
 	font-family: 'Rajdhani', sans-serif;
+	color: color: rgb(3,24,89); 
 	background-color: #74BDCB;
 }
 
@@ -147,6 +148,8 @@ table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 45%;
+    background-color: white; 
+    box-shadow: 0 0 1px rgba(0,0,0,.15);
 }
 
 td, th {
