@@ -91,7 +91,6 @@ a {
 .main-players{
 	border: 2.5px solid rgb(3,24,89); 
 	border-width: 6px;
-	//border-style: ridge;
 	border-style: solid double solid double;
 	border-collapse: collapse;
 	width: 92%;
